@@ -1,11 +1,9 @@
-
 spring:
-  datasource: 
-    class: org.springframework.jdbc.datasource.DriverManagerDataSourec
-    driver-class-name: com.mysql.jdbc.Driver
-    password: 1234
-    url: "jdbc:mysql://localhost:3306/bookstore?createDatabaseIfNotExist=true"
+  datasource:
+    url: jdbc:mysql://localhost:3306/bookstore?createDatabaseIfNotExist=true
     username: root
+    password: 1234
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       naming:
